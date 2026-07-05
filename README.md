@@ -16,13 +16,17 @@ getSuggestions(prefix, limit) — get up to limit autocomplete suggestions
 Complexity
 
 OperationTimeinsert O(L)
+
 search O(L)
+
 getSuggestions O(P + K)
 
 Where L = word length, P = prefix length, K = total characters returned.
 
 Run it
+
 bashjavac TrieAutocomplete.java
+
 java TrieAutocomplete
 
 Example output
